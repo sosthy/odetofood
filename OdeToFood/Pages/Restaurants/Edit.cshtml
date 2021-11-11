@@ -1,0 +1,27 @@
+@page "/restaurants/edit/{restaurantId:int?}"
+@model EditModel
+@{ ViewData["Title"] = "Edit"; }
+
+<h2>@(Model.Restaurant.Name == null ? "Editing New" : $"Editing {@Model.Restaurant.Name}")</h2>
+
+<hr />
+<form method="post">
+    <input type="hidden" asp-for="Restaurant.Id" />
+    <div class="form-group">
+        <label asp-for="Restaurant.Name"></label>
+        <input asp-for="Restaurant.Name" class="form-control" />
+        <span class="text-danger" asp-validation-for="Restaurant.Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Restaurant.Location"></label>
+        <input asp-for="Restaurant.Location" class="form-control" />
+        <span class="text-danger" asp-validation-for="Restaurant.Location"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Restaurant.Cuisine"></label>
+        <select asp-for="Restaurant.Cuisine" 
+                asp-items="Model.Cuisines" class="form-control"></select>
+        <span class="text-danger" asp-validation-for="Restaurant.Cuisine"></span>
+    </div>
+    <input type="submit" class="btn btn-primary" />
+</form>

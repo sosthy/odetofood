@@ -1,0 +1,14 @@
+@page  "/restaurants/detail/{restaurantId:int}"
+@model DetailModel
+@{ ViewData["title"] = "Detail"; }
+
+<div class="alert alert-info mb-3">@TempData["Message"]</div>
+
+<h2>@Model.Restaurant.Name</h2>
+<hr />
+<div>Id: @Model.Restaurant.Id</div>
+<div>Name: @Model.Restaurant.Name</div>
+<div>Location: @Model.Restaurant.Location</div>
+<div>Cuisine: @Model.Restaurant.Cuisine</div>
+<hr />
+<a asp-page="./List" class="btn btn-primary btn-sm">All Restaurants</a>

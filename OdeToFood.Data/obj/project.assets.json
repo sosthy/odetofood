@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "OdeToFood.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/OdeToFood.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OdeToFood.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OdeToFood.Core/1.0.0": {
+      "type": "project",
+      "path": "../OdeToFood.Core/OdeToFood.Core.csproj",
+      "msbuildProject": "../OdeToFood.Core/OdeToFood.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "OdeToFood.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Developpeur\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Developpeur\\projets\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+      "projectName": "OdeToFood.Data",
+      "projectPath": "C:\\Users\\Developpeur\\projets\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+      "packagesPath": "C:\\Users\\Developpeur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Developpeur\\projets\\OdeToFood\\OdeToFood.Data\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Developpeur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Developpeur\\projets\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
+              "projectPath": "C:\\Users\\Developpeur\\projets\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
