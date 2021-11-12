@@ -2,7 +2,10 @@
 @model DetailModel
 @{ ViewData["title"] = "Detail"; }
 
-<div class="alert alert-info mb-3">@TempData["Message"]</div>
+@if(@TempData["Message"] != null) 
+{
+    <div class="alert alert-info mb-3">@TempData["Message"]</div>
+}
 
 <h2>@Model.Restaurant.Name</h2>
 <hr />

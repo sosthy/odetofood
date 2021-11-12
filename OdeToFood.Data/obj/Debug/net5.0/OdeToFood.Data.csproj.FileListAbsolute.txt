@@ -12,3 +12,6 @@ C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Data\bin\Debug\net5.0\OdeToFood
 C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Data\obj\Debug\net5.0\OdeToFood.Data.dll
 C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Data\obj\Debug\net5.0\ref\OdeToFood.Data.dll
 C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Data\obj\Debug\net5.0\OdeToFood.Data.pdb
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Data\bin\Debug\net5.0\OdeToFood.Data.runtimeconfig.json
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Data\bin\Debug\net5.0\OdeToFood.Data.runtimeconfig.dev.json
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Data\obj\Debug\net5.0\OdeToFood.Data.genruntimeconfig.cache
