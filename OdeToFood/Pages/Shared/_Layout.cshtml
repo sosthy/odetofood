@@ -35,6 +35,8 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
+            <vc:restaurant-count zipcode="237"></vc:restaurant-count>
+            @RenderSection("footer", required : false)
         </main>
     </div>
 

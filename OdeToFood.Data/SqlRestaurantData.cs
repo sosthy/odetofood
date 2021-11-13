@@ -21,7 +21,7 @@ namespace OdeToFood.Data
             return restaurant;
         }
 
-        public int commit()
+        public int Commit()
         {
             return odeToFoodDb.SaveChanges();
         }
@@ -43,6 +43,11 @@ namespace OdeToFood.Data
         {
             Restaurant restaurant = odeToFoodDb.Restaurants.FirstOrDefault(r => r.Id == id);
             return restaurant; 
+        }
+
+        public int GetCountOfRestaurants()
+        {
+            return odeToFoodDb.Restaurants.Count();
         }
 
         public IEnumerable<Restaurant> GetRestaurantsByName(string name)

@@ -1,0 +1,37 @@
+@page "/restaurants/delete/{restaurantId}"
+@model DeleteModel
+
+<h2>Delete</h2>
+<div class="alert alert-danger">
+    Are you sure you want to delete @Model.Restaurant.Name
+</div>
+<form method="post">
+    <button type="submit" class="btn btn-danger">Yes !</button>
+    <a asp-page="./List" class="btn btn-secondary">Cancel</a>
+</form>
+
+@*
+
+@{ Layout = null; }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete - OdeToFood</title>
+</head>
+<body>
+    <h2>Delete</h2>
+    <div class="alert alert-danger">
+        Are you sure you want to delete @Model.Restaurant.Name
+    </div>
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Yes !</button>
+        <a asp-page="./List" class="btn btn-secondary">Cancel</a>
+    </form>
+</body>
+</html>
+
+*@

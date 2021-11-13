@@ -25,7 +25,7 @@ namespace OdeToFood.Data
             return restaurant;
         }
 
-        public int commit()
+        public int Commit()
         {
             return 0;
         }
@@ -47,6 +47,11 @@ namespace OdeToFood.Data
         public Restaurant GetById(int id)
         {
             return restaurants.SingleOrDefault(r => r.Id == id);
+        }
+
+        public int GetCountOfRestaurants()
+        {
+            return restaurants.Count();
         }
 
         public IEnumerable<Restaurant> GetRestaurantsByName(string name)

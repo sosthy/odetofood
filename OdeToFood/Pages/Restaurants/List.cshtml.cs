@@ -12,10 +12,7 @@ namespace OdeToFood.Pages.Restaurants
     public class ListModel: PageModel 
     {
         private readonly ILogger<ListModel> logger;
-        private readonly IConfiguration config;
         private readonly IRestaurantData restaurantService;
-
-        public string Message { get; set; }
         public IEnumerable<Restaurant> Restaurants { get; set; }
 
         [BindProperty(SupportsGet = true)]
@@ -23,18 +20,14 @@ namespace OdeToFood.Pages.Restaurants
 
         public ListModel(
             ILogger<ListModel> logger, 
-            IConfiguration config,
             IRestaurantData restaurantService) 
         {
             this.logger = logger;
-            this.config = config;
             this.restaurantService = restaurantService;
         }
 
         public void OnGet() 
         {
-            // Message = "Hello, World !!!";
-            Message = config["Message"];
             Restaurants = restaurantService.GetRestaurantsByName(Search);
             this.logger.LogInformation("Dans le constructeur de la page");
         }

@@ -1,0 +1,15 @@
+@page "/restaurants/clientside"
+@model ClientRestaurantsModel
+
+<h2>Restaurants client side</h2>
+
+@section Scripts {
+    <script>
+        $(function() {
+            $.ajax("/api/restaurants/", {method: "get"})
+            .then(function(response) {
+                console.dir(response);
+            });
+        });
+    </script>
+}

@@ -13566,6 +13566,23 @@
         }
       },
       {
+        "HashCode": -1861308347,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__RestaurantCountViewComponentTagHelper",
+        "AssemblyName": "OdeToFood",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:restaurant-count"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__RestaurantCountViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "RestaurantCount"
+        }
+      },
+      {
         "HashCode": 141407075,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -15664,13 +15681,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Developpeur\\projets\\OdeToFood\\OdeToFood\\Pages\\Shared\\Components\\RestaurantCount\\Default.cshtml",
+      "TargetPath": "Pages\\Shared\\Components\\RestaurantCount\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Developpeur\\projets\\OdeToFood\\OdeToFood\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Developpeur\\projets\\OdeToFood\\OdeToFood\\Pages\\Restaurants\\Delete.cshtml",
+      "TargetPath": "Pages\\Restaurants\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Developpeur\\projets\\OdeToFood\\OdeToFood\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Developpeur\\projets\\OdeToFood\\OdeToFood\\Pages\\Restaurants\\_Summary.cshtml",
+      "TargetPath": "Pages\\Restaurants\\_Summary.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Developpeur\\projets\\OdeToFood\\OdeToFood\\Pages\\Restaurants\\ClientRestaurants.cshtml",
+      "TargetPath": "Pages\\Restaurants\\ClientRestaurants.cshtml",
       "FileKind": "mvc"
     }
   ],

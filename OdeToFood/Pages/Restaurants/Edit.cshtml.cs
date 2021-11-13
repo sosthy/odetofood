@@ -59,7 +59,7 @@ namespace OdeToFood.Pages.Restaurants
             }
 
             Message = "Restaurant saved !";
-            restaurantService.commit();
+            restaurantService.Commit();
             return RedirectToPage("./Detail", new { restaurantId = Restaurant.Id });
         }
     }
