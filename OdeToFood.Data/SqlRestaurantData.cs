@@ -9,50 +9,50 @@ namespace OdeToFood.Data
 {
     public class SqlRestaurantData : IRestaurantData
     {
-        private readonly OdeToFoodDbContext odeToFoodDb;
+        private readonly DataContext database;
 
-        public SqlRestaurantData(OdeToFoodDbContext odeToFoodDb)
+        public SqlRestaurantData(DataContext database)
         {
-            this.odeToFoodDb = odeToFoodDb;
+            this.database = database;
         }
         public Restaurant Add(Restaurant restaurant)
         {
-            odeToFoodDb.Restaurants.Add(restaurant);
+            database.Restaurants.Add(restaurant);
             return restaurant;
         }
 
         public int Commit()
         {
-            return odeToFoodDb.SaveChanges();
+            return database.SaveChanges();
         }
 
         public Restaurant Delete(int id)
         {
             Restaurant restaurant = GetById(id);
             if (restaurant != null)
-                odeToFoodDb.Restaurants.Remove(restaurant);
+                database.Restaurants.Remove(restaurant);
             return restaurant;
         }
 
         public IEnumerable<Restaurant> GetAll()
         {
-            return odeToFoodDb.Restaurants.ToList();
+            return database.Restaurants.ToList();
         }
 
         public Restaurant GetById(int id)
         {
-            Restaurant restaurant = odeToFoodDb.Restaurants.FirstOrDefault(r => r.Id == id);
+            Restaurant restaurant = database.Restaurants.FirstOrDefault(r => r.Id == id);
             return restaurant; 
         }
 
         public int GetCountOfRestaurants()
         {
-            return odeToFoodDb.Restaurants.Count();
+            return database.Restaurants.Count();
         }
 
         public IEnumerable<Restaurant> GetRestaurantsByName(string name)
         {
-            return odeToFoodDb.Restaurants
+            return database.Restaurants
                     .Where(r => r.Name.StartsWith(name) || string.IsNullOrEmpty(name))
                     .OrderBy(r => r.Name)
                     .ToList();
@@ -60,7 +60,7 @@ namespace OdeToFood.Data
 
         public Restaurant Update(Restaurant updatedRestaurant)
         {
-            EntityEntry<Restaurant> entityEntry = odeToFoodDb.Restaurants.Attach(updatedRestaurant);
+            EntityEntry<Restaurant> entityEntry = database.Restaurants.Attach(updatedRestaurant);
             entityEntry.State = EntityState.Modified;
             return updatedRestaurant;
         }

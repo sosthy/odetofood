@@ -1,0 +1,11 @@
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Core\bin\Debug\net5.0\linux-x64\OdeToFood.Core.deps.json
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Core\bin\Debug\net5.0\linux-x64\OdeToFood.Core.dll
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Core\bin\Debug\net5.0\linux-x64\ref\OdeToFood.Core.dll
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Core\bin\Debug\net5.0\linux-x64\OdeToFood.Core.pdb
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Core\obj\Debug\net5.0\linux-x64\OdeToFood.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Core\obj\Debug\net5.0\linux-x64\OdeToFood.Core.AssemblyInfoInputs.cache
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Core\obj\Debug\net5.0\linux-x64\OdeToFood.Core.AssemblyInfo.cs
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Core\obj\Debug\net5.0\linux-x64\OdeToFood.Core.csproj.CoreCompileInputs.cache
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Core\obj\Debug\net5.0\linux-x64\OdeToFood.Core.dll
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Core\obj\Debug\net5.0\linux-x64\ref\OdeToFood.Core.dll
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood.Core\obj\Debug\net5.0\linux-x64\OdeToFood.Core.pdb
