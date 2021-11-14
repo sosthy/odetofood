@@ -123,3 +123,6 @@ C:\Users\Developpeur\projets\OdeToFood\OdeToFood\obj\Debug\net5.0\Razor\Pages\Re
 C:\Users\Developpeur\projets\OdeToFood\OdeToFood\obj\Debug\net5.0\Razor\Pages\Restaurants\_Summary.cshtml.g.cs
 C:\Users\Developpeur\projets\OdeToFood\OdeToFood\obj\Debug\net5.0\Razor\Pages\Shared\Components\RestaurantCount\Default.cshtml.g.cs
 C:\Users\Developpeur\projets\OdeToFood\OdeToFood\obj\Debug\net5.0\Razor\Pages\Restaurants\ClientRestaurants.cshtml.g.cs
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood\bin\Debug\net5.0\package-lock.json
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood\bin\Debug\net5.0\package.json
+C:\Users\Developpeur\projets\OdeToFood\OdeToFood\bin\Debug\net5.0\OdeToCode.UseNodeModules.dll
